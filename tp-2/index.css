@@ -55,5 +55,5 @@ a[href=""]{
     background-color: #111;
 }
 .movies-list li:nth-child(even){
-    background-color: #999;
+    background-color: #333;
 }
