@@ -1,1 +1,29 @@
 
+.titulo {
+    font-size: 2rem;
+    text-align: center;
+}
+.parrafo{
+    font-family: serif;
+ }
+ #primer-parrafo.importante {
+    background-color: #cee;
+
+ }
+#primer-parrafo em{
+    color: #933
+}
+#contenedor a, a {
+    outline: 1px solid #333
+}
+html body p.fuente.parrafo a{
+    opacity: 100%;
+    color: #000;
+}
+.complicado {
+    font-weight: bold;
+    color: #C62 !important;
+  }
+
+  
+
