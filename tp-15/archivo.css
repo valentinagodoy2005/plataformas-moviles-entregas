@@ -1,1 +1,18 @@
+#spinner {
+    display: none;
+}
 
+.recipe-card {
+    margin-bottom: 20px;
+}
+
+.recipe-img {
+    width: 100%;
+    height: auto;
+}
+
+.card-title {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
