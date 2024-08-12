@@ -1,1 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recetario</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="archivo.css">
+</head>
+<body>
+    <div class="container mt-4">
+        <h1 class="text-center">Recetario Internacional</h1>
+        <div class="text-center mb-4">
+            <button id="chineseBtn" class="btn btn-primary">Comida China</button>
+            <button id="italianBtn" class="btn btn-success">Comida Italiana</button>
+            <button id="americanBtn" class="btn btn-danger">Comida Americana</button>
+        </div>
 
+        <div id="spinner" class="text-center">
+            <div class="spinner-border" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+
+        <div id="recipeGrid" class="row"></div>
+    </div>
+
+    <script src="archivo.js"></script>
+</body>
+</html>
